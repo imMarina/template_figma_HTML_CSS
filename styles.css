@@ -1,0 +1,64 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@300&display=swap'); */
+
+/* font-family: 'Arsenal', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    text-decoration: none;
+    color: inherit;
+}
+
+.box__header-contacts {
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1920px;
+    background: #09131B;
+    color: rgb(161, 161, 161)
+}
+
+
+
+.header-link {
+    color: #FFF;
+}
+
+.container {
+    max-width: 1920px;
+    height: 1520px;
+
+    background-image: image-set(
+        url('./assets/images/Background.jpg') type('image/jpg'),
+        url('./assets/images/Background.png') type('image/png'),
+        url('./assets/images/Background.svg') type('image/svg')
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-header {
+    color: #FFF;
+    font-family: Open Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 20.4px */
+text-transform: uppercase;
+}
