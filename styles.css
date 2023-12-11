@@ -15,33 +15,72 @@ html {
     box-sizing: inherit;
 }
 
+body .page {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-li {
-    text-decoration: none;
+ul {
+    list-style: none;
     color: inherit;
 }
 
-.box__header-contacts {
-    display: flex;
-    flex-direction: row;
+/* Header-contacts part */
 
-    max-width: 1920px;
+.wrapper-contacts {
     background: #09131B;
     color: rgb(161, 161, 161)
 }
 
-
-
-.header-link {
-    color: #FFF;
+.header-contacts {
+    min-height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
 }
 
-.container {
-    max-width: 1920px;
+.header-contacts__list {
+    display: flex;
+    gap: 20px;
+    color: #FFF;
+
+    font-family: 'Roboto Slab', serif; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    text-decoration-line: underline;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-link img {
+    min-width: 24px;
+}
+
+.header-networks__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-networks__item .fa {
+    font-size: 24px;
+}
+
+
+/* Header-menu part */
+.wrapper-main {
     height: 1520px;
 
     background-image: image-set(
@@ -56,9 +95,12 @@ li {
 .container-header {
     color: #FFF;
     font-family: Open Sans;
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; /* 20.4px */
-text-transform: uppercase;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 20.4px */
+    text-transform: uppercase;
 }
+
+
+
