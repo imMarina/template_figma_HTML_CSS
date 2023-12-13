@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="/assets/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Righteous&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
 
 </head>
@@ -60,54 +60,71 @@
                         </a>
                     </li>
                 </ul>
-                
+
             </div>
         </div>
 
         <div class="wrapper-main">
             
-            <div class="container-header">
-                <header class="header">
-                    <ul>
-                        <li>
-                            <a href="">
-                                Travello.
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Home
-                        </li>
-                        <li>
-                            <a href="">
-                                About
-                            </a>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Account
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Login
-                            </a>
-                        </li>
+            <header class="header-menu">
+
+                <a class="header-menu_logo" href="#!">
+                        Travello
+                </a>
+
+                <ul class="header-menu__list">
+                    <li>
+                        <a href="#!">Home</a>
+                    </li>
+                    <li>
+                        <a href="#!">About</a>
+                    </li>
+                    <li>
+                        <a href="#!">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#!">Account</a>
+                    </li>
+                    <li>
+                        <a href="#!">Login</a>
+                    </li>
+                </ul>
+
+                <div class="header-menu__burger">
+                    <input type="checkbox" id="menu__toggle">
+                    <label class="header-menu__btn" for="menu__toggle"></label>
+
+                    <ul class="header-menu__burger-list">
+                        <li class="header-menu__burger-list__item"><a href="#!">Home</a></li>
+                        <li><a href="#!">About</a></li>
+                        <li><a href="#!">Blog</a></li>
+                        <li><a href="#!">Account</a></li>
+                        <li><a href="#!">Login</a></li>
                     </ul>
-                </header>
-            </div>
+                </div>
+            </header>
             
 
             <div class="container-main">
-                <main class="main"></main>
+                <main class="main">
+                    <section class="section-search">
+                        <span class="section-search__text-1">the travel guide app</span>
+                        <h1 class="section-search__text-2">Travello</h1>
+                        <span class="section-search__text-3">Travel booking just a click away</span>
+
+                        <form class="section-search__group-input"> 
+                            <label class="section-search__label" for="search__input"></label>
+                            <input type="text" class="section-search__input" placeholder="Where do you want to go?" id="search__input">
+
+                            <label class="section-search__label" for="submit__input"></label>
+                            <input type="submit" class="section-search__submit" value="Search" id="submit__input">
+                        </form>
+
+                    </section>
+
+                </main>
                 <article class="article"></article>
-                <section class="section"></section>
+
                 <aside class="aside"></aside>
             </div>
         </div>
