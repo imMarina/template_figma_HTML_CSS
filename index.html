@@ -16,56 +16,40 @@
 <body>
     <div class="page">
 
+
         <div class="wrapper-contacts">
             <div class="header-contacts">
 
                 <div class="header-contacts__list">
                     <a class="header-link" href="#!">
-                        <img src="/assets/images/Envelope.svg" alt="Envelope"><span>info@yourcommpany.com</span>
+                        <img src="./assets/images/Envelope.svg" alt="Envelope"><span>info@yourcommpany.com</span>
                     </a>
                     <a class="header-link" href="#!">
-                        <img src="/assets/images/Headphones.svg" alt="Headphones"><span>+001 235 1245 2356</span>
+                        <img src="./assets/images/Headphones.svg" alt="Headphones"><span>+001 235 1245 2356</span>
                     </a>
                 </div>
 
-                <ul class="header-networks__list">
-                    <li class="header-networks__item">
+                <div class="header-networks__list">
+                    <a href="#!">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#!">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#!">
+                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                    </a>
+                    <a href="#!">
+                        <i class="fa fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="#!"><i class="fa fa-brands fa-youtube"></i>
+                    </a>
+                </div>
 
-                    </li>
-                    <li class="header-networks__item">
-
-                    </li>
-                    <li class="header-networks__item">
-                        <a class="header-link" href="#!">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li class="header-networks__item">
-                        <a href="#!">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li class="header-networks__item">
-                        <a href="#!">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li class="header-networks__item">
-                        <a href="#!">
-                            <i class="fa fa-brands fa-square-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="header-networks__item">
-                        <a href="#!"><i class="fa fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
+            </div> 
         </div>
 
         <div class="wrapper-main">
-            
             <header class="header-menu">
 
                 <a class="header-menu_logo" href="#!">
@@ -91,10 +75,10 @@
                 </ul>
 
                 <div class="header-menu__burger">
-                    <input type="checkbox" id="menu__toggle">
-                    <label class="header-menu__btn" for="menu__toggle"></label>
 
-                    <ul class="header-menu__burger-list">
+                    <button type="button" class="header-menu__btn">☰</button>
+
+                    <ul class="burger-list__active burger-list__hidden">
                         <li class="header-menu__burger-list__item"><a href="#!">Home</a></li>
                         <li><a href="#!">About</a></li>
                         <li><a href="#!">Blog</a></li>
@@ -102,6 +86,7 @@
                         <li><a href="#!">Login</a></li>
                     </ul>
                 </div>
+
             </header>
             
 
@@ -137,5 +122,7 @@
     </div>
 
     <script src="https://kit.fontawesome.com/725ecd5168.js" crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
 </body>
 </html>
